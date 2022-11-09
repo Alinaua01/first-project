@@ -1,0 +1,39 @@
+.footer {
+    background-color: $color-grey;
+    padding: 128px 0px 141px;
+    @media(max-width:$tablet){
+        padding: 64px 0px 68px;
+    }
+
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        @media(max-width:$tablet){
+            flex-direction: column;
+        }
+    }
+    &__title{
+        margin-bottom: 32px;
+    }
+    &__contact{
+        margin-bottom: 16px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+    }
+    &__description{
+        align-self: flex-end;
+    }
+    &__social-row{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    
+}

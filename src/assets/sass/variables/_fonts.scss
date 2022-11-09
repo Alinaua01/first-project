@@ -9,9 +9,29 @@ $sub-fonts:'Lato', sans-serif;
     font-size: 48px;
     line-height: 64px;
     letter-spacing: 0.05em;
-    color: $color-black; 
-    @media (max-width:$tablet){
+    color: $color-black;
+    
+    @media (max-width: $tablet){
         font-size: 33px;
         line-height: 50px;
     }
+    
+}
+
+.h6 {
+    font-family: $sub-fonts;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color: $color-black;
+}
+
+.h9{
+    font-family: $sub-fonts;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: $color-black;
 }
