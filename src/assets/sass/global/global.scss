@@ -12,7 +12,11 @@ body {
     max-width: 134px;
     height: 11px;
 }
-
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 .hover__link-animation{
     cursor: pointer;
     transition: transform 0.3s ease-in-out;

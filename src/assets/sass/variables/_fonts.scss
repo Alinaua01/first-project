@@ -18,6 +18,15 @@ $sub-fonts:'Lato', sans-serif;
     
 }
 
+.h3{
+    font-family: $sub-fonts;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color:$color-grey1;
+
+}
 .h6 {
     font-family: $sub-fonts;
     font-weight: 400;
