@@ -27,6 +27,15 @@ $sub-fonts:'Lato', sans-serif;
     color:$color-grey1;
 
 }
+
+.h4{
+    font-family: $sub-fonts;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: $color-black;
+    }
 .h6 {
     font-family: $sub-fonts;
     font-weight: 400;
