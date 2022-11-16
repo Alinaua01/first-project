@@ -46,7 +46,9 @@
     &__info-tel,&__info-email,&__info-address{
         font-family: $sub-fonts;
         color:$color-grey1;
+        max-width: 226px;
     }
+    
     &__link-info-title{
         padding-bottom:24px;
         margin-top: 69px;
