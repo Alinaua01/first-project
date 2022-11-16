@@ -13,7 +13,12 @@
 // Common section
 @import './common/header.scss';
 @import './common/footer.scss';
-// Common section End
+@import './common/form.scss';
+// Common Style End
+
+//Components Style
+@import './components/button.scss';
+//Components Style End
 
 // Pages Style
 @import './pages/home.scss';

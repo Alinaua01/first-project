@@ -77,24 +77,4 @@
         }
     }
 
-
-    &__btn {
-        border: none;
-        background: $color-grey1;
-        cursor: pointer;
-        color: $color-white;
-        font-family: $sub-fonts;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 27px;
-        letter-spacing: 0.1em;
-        width: 160px;
-        height: 45px;
-        &::after{
-            content:'→';
-            color: $color-white;
-            padding-left: 8px;   
-        }
-
-     }
 }
