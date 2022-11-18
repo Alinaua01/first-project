@@ -1,0 +1,111 @@
+.casestudy {
+    padding-top: 123px;
+    @media (max-width: $tablet){
+        padding-top: 64px;
+    }
+
+    &__text {
+        margin-bottom: 48px;
+        @media (max-width: $tablet){
+            margin-bottom: 39px;
+        }
+    }
+    &__title{
+        margin-bottom: 64px;
+        @media (max-width: $tablet){
+            margin-bottom: 52px;
+            max-width: 192px;
+        }
+    }
+    &__img{
+        margin-bottom: 130px;
+        @media (max-width: $tablet){
+           height: 288px;
+            margin-bottom: 48px;
+        }
+    }
+    &__description{
+        display: flex;
+        justify-content: space-between;
+        @media (max-width: $tablet){
+            flex-direction: column;
+            margin-bottom: 71px;
+         }
+    }
+    &__description-content{
+        padding-right: 224px;
+        margin-bottom: 135px;
+        @media (max-width: $tablet){
+            padding-right: 0px;
+            margin-bottom: 64px;
+         }
+    }
+    &__description-title{
+        font-family: $main-fonts;
+        color: $color-black;
+        margin-bottom: 40px;
+    }
+    &__description-text1, &__description-text2{
+        width: 544px;
+        color: $color-grey1;
+        @media (max-width: $tablet){
+            width: 96%;    
+         }
+    }
+    &__description-text2{
+        margin-top: 50px;
+    }
+    &__items{
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        width: 50%; 
+        @media (max-width: $tablet){
+            gap: 46px;  
+         }
+    }
+    &__item-title{
+        font-family: $main-fonts;
+        color: $color-black;
+    }
+    &__item-text{
+        color: $color-grey1;
+    }
+    &__cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__card-title{
+        margin-bottom: 40px;
+        font-family: $main-fonts;
+        color: $color-black;
+        @media (max-width: $tablet){
+            margin-bottom: 32px;  
+         }
+    }
+    &__card-img{
+        @media (max-width: $tablet){
+            height: 288px; 
+         }
+    }
+    &__card-img,&__card-text1{
+        margin-bottom: 50px;
+        @media (max-width: $tablet){
+            margin-bottom: 48px;
+         }
+    }
+    &__card{
+        margin-bottom: 128px;
+        @media (max-width: $tablet){
+            margin-bottom: 64px;
+         }
+    }
+    &__card-text,&__card-text1,&__card-text2{
+        color: $color-grey1;
+        @media (max-width: $tablet){
+            width: 96%;
+         }
+    }
+
+}
