@@ -1,0 +1,89 @@
+.blog {
+    padding-bottom: 128px;
+
+    &__title{
+        margin: 123px 0 96px;
+    }
+
+    &__info{
+        display: flex;
+        gap: 68px;
+        margin-bottom: 114px;
+    }
+    &__info-img{
+        max-width: 540px;
+    }
+    &__info-item{
+        max-width: 448px;
+    }
+    &__info-item-tag{
+        color: $color-grey-500;
+        padding: 50px 0 24px;
+    }
+    &__info-item-title{
+        color: $color-black;
+        padding-bottom: 16px;
+    }
+    &__info-item-data{
+        color: $color-grey-500;
+        padding-bottom: 48px;
+    }
+    &__slide-number-num{
+        color: $color-black;
+    }
+    
+    &__slide-number{
+        display: flex;
+        gap: 24px;
+        margin-top: 94px;
+    }
+
+    &__slide-number-num{
+
+        &:hover, :active {
+            color: $color-grey-500;
+
+        }
+    }
+    &__form-fields{
+        display: flex;
+        gap: 39px;
+        max-width: 544px;
+        margin-bottom: 48px;
+    }
+
+    &__form-input{
+        color: $color-grey1;
+        border-bottom: 1px solid $color-black;
+        padding-bottom: 21px;
+        width: 100%;
+        cursor: pointer;
+
+        &:hover {
+            border-bottom: 2px solid blue;
+        }
+        
+    }
+    &_row{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap:38px;
+
+    }
+
+    &__row-post{
+        width: 542px;
+    }
+    &__row-post-info{
+        display: flex;
+        justify-content: space-between;
+        margin: 24px 0 24px;
+    }
+    &__row-post-title-2{
+        padding-bottom: 24px;
+    }
+
+
+
+}
