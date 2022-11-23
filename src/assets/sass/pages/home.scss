@@ -1,5 +1,19 @@
-.home {
-    background-color: blue;
-    position: relative;
+.home{
+    &__title{
+        margin:128px 0 128px;
+        max-width: 709px;
+    }
+}
 
+.slider{
+    &__container{
+        display: flex;
+        flex-direction: row;
+        gap:32px;
+       
+    }
+
+    &__works-img{
+        max-width: 544px;
+    }
 }
