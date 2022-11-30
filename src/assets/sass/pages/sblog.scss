@@ -1,0 +1,48 @@
+.sblog{
+    padding-top: 128px;
+
+    &__tag{
+        color: $color-grey-500;
+        padding-bottom: 24px;
+    }
+    &__title{
+        max-width: 640px;
+        padding-bottom: 48px;
+    }
+
+    &__info{
+        max-width: 285px;
+        display: flex;
+        justify-content: space-between;
+        gap: 39px;
+        margin-bottom: 64px;
+    }
+
+    &__info-text{
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+    }
+    &__info-date, &__info-comments{
+        color: $color-grey-500;
+    }
+    &__img{
+        margin-bottom: 41px;
+    }
+}
+
+.description{
+   &__container{
+    max-width: 736px;
+   }
+
+    &__writer{
+        max-width: 197px;
+        display: flex;
+        justify-content: space-between;
+       align-items: center;
+    }
+    &__writer-img{
+        max-width: 70px;
+    }
+}
