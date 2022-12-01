@@ -106,4 +106,99 @@
 }
 //--section description end
 
-.
+.reply{
+    &__container{
+        padding-left: 55px;
+        margin-top: 96px;
+        max-width: 732px;
+        
+    }
+    &__text{
+        margin-bottom: 64px;
+        color: $color-grey-500;
+    }
+    &__title{
+        padding-bottom: 16px;
+    }
+    &__title:first-child{
+        color: $color-black;
+    }
+    &__form{
+        display: flex;
+        justify-content: space-between;
+        gap:43px;
+        margin-bottom: 48px;
+    }
+    &__fields-checkbox{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 48px;    
+    }
+    &__fields-checkbox-text{
+        color: $color-grey-500;
+    }
+    
+    &__btn{
+        padding: 8px 34px;
+        margin-top: 24px;
+    }
+    
+}
+
+.comments{
+    &__container{
+        max-width: 736px;
+        padding: 96px 0 128px 55px;
+    }
+    &__img{
+        width: 70px;
+        height: 70px;
+    }
+    &__title{
+        padding-bottom: 24px;
+        color: $color-black;
+    }
+    &__column{
+        display: flex;
+        flex-direction: column;
+        gap: 39px;
+    }
+    &__content,
+    &__secondary{
+        display: flex;
+        gap:24px;
+    }
+    &__content-info-item,
+    &__secondary-info-item{
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        margin-bottom: 16px;
+    }
+    &__content-info-item-data,
+    &__secondary-info-item-data{
+        color: $color-grey-500;
+    }
+    &__secondary{
+        padding-left: 96px;
+    }
+    &__content-info-text{
+        margin-bottom: 16px;
+        color:$color-grey1;
+    }
+    &__secondary-info-text{
+        color: $color-grey1;
+        padding-left: 5px;
+        margin-bottom: 16px;
+    }
+    &__content-info-link,
+    &__secondary-info-link{
+        display: flex;
+        gap:8px;   
+    }
+    &__content-info-link-text,
+    &__secondary-info-link-text{
+        color: $color-grey-500;
+    }
+}
