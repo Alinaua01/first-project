@@ -1,3 +1,4 @@
+
 .sblog{
     padding-top: 128px;
 
@@ -29,20 +30,80 @@
     &__img{
         margin-bottom: 41px;
     }
-}
 
-.description{
-   &__container{
-    max-width: 736px;
-   }
+
+
+
+
+}
+//--Section sblog End
+
+//--section description
+.description {
 
     &__writer{
-        max-width: 197px;
         display: flex;
-        justify-content: space-between;
-       align-items: center;
+        align-items: center;
+        gap:8px;
+        margin: 41px 0px 39px 260px;
+    }
+
+    &__social-items{
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+        position: sticky;
     }
     &__writer-img{
         max-width: 70px;
     }
+    &__rows{
+        max-width: 736px;
+    }
+    &__social{
+        display: flex;
+        justify-content: center;
+        gap: 90px;
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-bottom: 32px;
+    }
+    &__content-line{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        border-left: 2px solid $color-grey-500;
+        margin-bottom: 32px;
+        padding: 0 0 32px 64px;
+    }
+    &__content-line-text:last-child{
+        color: $color-grey-500;
+
+    }
+    &__content-1-list{
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        margin: 32px 0 82px 20px;
+    }
+
+    &__content-1-list-item{
+        list-style-type: disc;
+    }
+    &__tags{
+        display: flex;
+        gap:16px;
+        max-width: 736px;
+        border-bottom: 1px solid $color-grey;
+        padding-bottom: 16px;
+    }
+    &__tags-value{
+        color: $color-grey-500;
+    }   
 }
+//--section description end
+
+.
