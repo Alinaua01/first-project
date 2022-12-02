@@ -1,14 +1,24 @@
 
 .sblog{
     padding-top: 128px;
+    @media (max-width: $tablet) {
+       padding-top: 64px;
+    }
 
     &__tag{
         color: $color-grey-500;
         padding-bottom: 24px;
+        @media (max-width: $tablet) {
+            padding-bottom: 16px;
+        }
     }
     &__title{
         max-width: 640px;
         padding-bottom: 48px;
+        @media (max-width: $tablet) {
+            max-width: 288px;
+            padding-bottom: 16px;
+        }
     }
 
     &__info{
@@ -17,23 +27,43 @@
         justify-content: space-between;
         gap: 39px;
         margin-bottom: 64px;
+        @media (max-width: $tablet) {
+            flex-direction: column;
+            gap: 8px;
+            margin-bottom: 39px;
+
+        }
+        
     }
 
     &__info-text{
         display: flex;
         justify-content: space-between;
         gap: 8px;
+        @media (max-width: $tablet) {
+            justify-content:flex-start;
+
+        }
+    
     }
-    &__info-date, &__info-comments{
+    &__info-date, &__info-comments,&__info-comments1{
         color: $color-grey-500;
     }
     &__img{
         margin-bottom: 41px;
     }
-
-
-
-
+    &__info-comments1{
+        display: none;
+        @media (max-width: $tablet) {
+            display: block;   
+        }
+    }
+    &__info-comments{
+        display: block;
+        @media (max-width: $tablet) {
+            display: none;   
+        }
+    }
 
 }
 //--Section sblog End
@@ -46,6 +76,9 @@
         align-items: center;
         gap:8px;
         margin: 41px 0px 39px 260px;
+        @media (max-width: $tablet) { 
+            margin: 39px 0px 43px 0px;
+        }
     }
 
     &__social-items{
@@ -53,23 +86,34 @@
         flex-direction: column;
         gap: 23px;
         position: sticky;
+        @media (max-width: $tablet) {
+            flex-direction: row;    
+        }
     }
     &__writer-img{
         max-width: 70px;
     }
     &__rows{
         max-width: 736px;
+        @media (max-width: $tablet) {
+            width: 100%;   
+        }
     }
     &__social{
         display: flex;
         justify-content: center;
         gap: 90px;
+        @media (max-width: $tablet) {
+            flex-direction: column;
+            gap: 30px;
+        }
     }
     &__content{
         display: flex;
         flex-direction: column;
         gap: 50px;
         margin-bottom: 32px;
+
     }
     &__content-line{
         display: flex;
@@ -78,6 +122,9 @@
         border-left: 2px solid $color-grey-500;
         margin-bottom: 32px;
         padding: 0 0 32px 64px;
+        @media (max-width: $tablet) {
+            padding: 0 0 31px 16px;
+        }
     }
     &__content-line-text:last-child{
         color: $color-grey-500;
@@ -99,18 +146,31 @@
         max-width: 736px;
         border-bottom: 1px solid $color-grey;
         padding-bottom: 16px;
+        @media (max-width: $tablet) {
+            max-width: 288px; 
+        }
     }
     &__tags-value{
         color: $color-grey-500;
-    }   
+        @media (max-width: $tablet) {
+            color: $color-black;
+        }
+    } 
+    &__tags-text{
+        @media (max-width: $tablet) {
+            color: $color-grey-500;
+        }
+    } 
 }
 //--section description end
 
 .reply{
     &__container{
-        padding-left: 55px;
+        max-width: 664px;
         margin-top: 96px;
-        max-width: 732px;
+        @media (max-width: $tablet) {
+            margin-top: 64px;
+        }
         
     }
     &__text{
@@ -119,6 +179,10 @@
     }
     &__title{
         padding-bottom: 16px;
+        @media (max-width: $tablet) {
+            padding-bottom: 0px;
+        }
+
     }
     &__title:first-child{
         color: $color-black;
@@ -128,12 +192,21 @@
         justify-content: space-between;
         gap:43px;
         margin-bottom: 48px;
+        @media (max-width: $tablet) {
+            flex-direction: column;
+            gap:24px;
+            margin-bottom: 22px;
+        }
     }
+
     &__fields-checkbox{
         display: flex;
         align-items: center;
         gap: 10px;
-        margin-bottom: 48px;    
+        margin-bottom: 48px;
+        @media (max-width: $tablet) {
+            margin-bottom: 26px;
+        }
     }
     &__fields-checkbox-text{
         color: $color-grey-500;
@@ -141,7 +214,8 @@
     
     &__btn{
         padding: 8px 34px;
-        margin-top: 24px;
+        margin: 24px 0 96px 0;
+
     }
     
 }
@@ -149,7 +223,11 @@
 .comments{
     &__container{
         max-width: 736px;
-        padding: 96px 0 128px 55px;
+        margin-bottom: 128px;
+        @media (max-width: $tablet) {
+            max-width: 664px;
+            margin-bottom: 64px;
+        }
     }
     &__img{
         width: 70px;
@@ -175,6 +253,11 @@
         align-items: center;
         gap: 24px;
         margin-bottom: 16px;
+        @media (max-width: $tablet) {
+            flex-direction: column;
+            align-items:flex-start;
+            gap: 16px;
+        }
     }
     &__content-info-item-data,
     &__secondary-info-item-data{
@@ -202,3 +285,10 @@
         color: $color-grey-500;
     }
 }
+.form__input{
+    @media (max-width: $tablet) {
+        width: 75%;
+    }
+}
+    
+
