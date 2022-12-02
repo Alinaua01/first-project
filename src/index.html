@@ -11,21 +11,21 @@
 </head>
 
 <body>
-   
+
     <div class="wrapper">
 
         <header class="header">
             <div class="container header__container">
                 <img class="logo" src="./img/Logo.svg" alt="logo">
                 <nav class="header__nav">
-                   <label class="header__nav-label" for="gam">
-                    <div class="header__nav-icon"> 
-                        <img class="header__gam-img" src="../img/icon.png" alt="=">
-                    </div>
-                    <div class="header__nav-icon"></div>
-                   </label>
-                   <input id="gam" class="header__nav-input" type="checkbox">
-                   <ul class="header__nav-row">
+                    <label class="header__nav-label" for="gam">
+                        <div class="header__nav-icon">
+                            <img class="header__gam-img" src="../img/icon.png" alt="=">
+                        </div>
+                        <div class="header__nav-icon"></div>
+                    </label>
+                    <input id="gam" class="header__nav-input" type="checkbox">
+                    <ul class="header__nav-row">
                         <li class="header__nav-item header__nav-item--active">
                             <a class="header__nav-link" href="/">Home</a>
                         </li>
@@ -41,23 +41,26 @@
                         <li class="header__nav-item">
                             <a class="header__nav-link" href="./pages/contact.html">Contact</a>
                         </li>
-                   </ul>
+                    </ul>
                 </nav>
             </div>
         </header>
 
-       <main class="home-page">
-          <section class="home">
-            <div class="container home__container"> 
-                <h1 class="title home__title">
-                    Manifest is a newborn theme.
-                    Clean, simple and fast.
-                </h1>
-            </div>
-         </section>
+        <main class="home-page">
+            <!--section home-->
+            <section class="home">
+                <div class="container home__container">
+                    <h1 class="title home__title">
+                        Manifest is a newborn theme.
+                        Clean, simple and fast.
+                    </h1>
+                </div>
+            </section>
+            <!--section home end-->
 
-         <section class="slider">
-            <div class="container slider__container">
+
+            <!--section slider-->
+            <section class="slider">
                 <div class="slider__works">
                     <img class="slider__works-img" src="./img/home/img1.jpg" alt="Image">
                     <p class="h6 slider__works-text">Mocha</p>
@@ -75,59 +78,147 @@
                     <p class="h6 slider__works-text">Dreamy</p>
                 </div>
 
+            </section>
+            <!--section slider end-->
+
+
+            <!--section info-->
+            <section class="info">
+                <div class="container info__container">
+                    <div class="info__content">
+                        <h3 class="h3 info__content-title">Full-time UI/UX designer
+                        </h3>
+                        <h3 class="h3 info__content-title-1">
+                            Head of Design at VeronaLabs.com
+                        </h3>
+
+                        <svg width="24" height="12" viewBox="0 0 24 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M23.5303 6.53033C23.8232 6.23744 23.8232 5.76257 23.5303 5.46967L18.7574 0.696701C18.4645 0.403807 17.9896 0.403807 17.6967 0.696701C17.4038 0.989594 17.4038 1.46447 17.6967 1.75736L21.9393 6L17.6967 10.2426C17.4038 10.5355 17.4038 11.0104 17.6967 11.3033C17.9896 11.5962 18.4645 11.5962 18.7574 11.3033L23.5303 6.53033ZM-6.55671e-08 6.75L23 6.75L23 5.25L6.55671e-08 5.25L-6.55671e-08 6.75Z"
+                                fill="#7B7B7B" />
+                        </svg>
+                    </div>
+                    <div class="info__box">
+                        <h4 class="h4 info__box-text-1">We work with clients around the world from our headquarters in
+                            Charleston, South Carolina.
+                        </h4>
+                        <h4 class="h4 info__box-text-2">We focus on naming, branding, brand narratives, 
+                            website design and development, and brand experiences.
+                        </h4>
+
+                    </div>
+
+
+
+                </div>
+
+            </section>
+            <!--section info end-->
+
+            <!--section posts-->
+            <section class="posts">
+                <div class="container posts__container">
+                    <div class="posts__content">
+                        <h3 class="h3 posts__content-title">Latest Posts</h3>
+
+                        <div class="posts__content-row">
+                            <p class="h6 posts__content-row-text">View All</p>
+                            <svg width="24" height="12" viewBox="0 0 24 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M23.5303 6.53033C23.8232 6.23744 23.8232 5.76257 23.5303 5.46967L18.7574 0.696701C18.4645 0.403807 17.9896 0.403807 17.6967 0.696701C17.4038 0.989594 17.4038 1.46447 17.6967 1.75736L21.9393 6L17.6967 10.2426C17.4038 10.5355 17.4038 11.0104 17.6967 11.3033C17.9896 11.5962 18.4645 11.5962 18.7574 11.3033L23.5303 6.53033ZM-6.55671e-08 6.75L23 6.75L23 5.25L6.55671e-08 5.25L-6.55671e-08 6.75Z" fill="#7B7B7B"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="posts__cards">
+                        <div class="posts__cards-item">
+                            <img class="posts__cards-item-img" src="../img/home/Img01.jpg" alt="Image">
+
+                            <div class="posts__cards-item-tags">
+                                <p class="h9 posts__cards-item-tags-title">Interface Design</p>
+                                <p class="h9 posts__cards-item-tags-data">8 June, 2020</p>
+                            </div>
+                            <h3 class="h3 posts__cards-item-title-1">UX traffic light colours</h3>
+                            <p class="h5 posts__cards-item-text">UI has to make a huge visual difference between warning, an alert and a success.</p>
+
+                        </div>
+                        <div class="posts__cards-item">
+                            <img class="posts__cards-item-img" src="../img/home/Img02.jpg" alt="Image">
+
+                            <div class="posts__cards-item-tags">
+                                <p class="h9 posts__cards-item-tags-title">Technology</p>
+                                <p class="h9 posts__cards-item-tags-data">6 May, 2020</p>
+                            </div>
+                            <h3 class="h3 posts__cards-item-title-2">Using UX Design to Build a Sustainable Future</h3>
+                            <p class="h5 posts__cards-item-text">Transformation has to be driven by everybody, not just by climate groups.</p>
+
+                        </div>
+                        <div class="posts__cards-item">
+                            <img class="posts__cards-item-img" src="../img/home/Img03.jpg" alt="Image">
+
+                            <div class="posts__cards-item-tags">
+                                <p class="h9 posts__cards-item-tags-title">Visual Design</p>
+                                <p class="h9 posts__cards-item-tags-data">8 June, 2020</p>
+                            </div>
+                            <h3 class="h3 posts__cards-item-title-1">Creativity vs. UX</h3>
+                            <p class="h5 posts__cards-item-text">Is it possible to create a delightful user experience without following best UX practices?</p>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </section>
+            <!--section posts end-->
+
+        </main>
+
+        <footer class="footer">
+            <div class="container footer__container">
+                <div class="footer__content">
+                    <h2 class=" title footer__title">Need a project?</h2>
+                    <a class=" h6 footer__contact" href="tel:(239) 555-0108">
+                        (239) 555-0108
+                    </a>
+                    <a class="h6 footer__contact" href="mailto:tanya.hill@example.com">
+                        tanya.hill@example.com
+                    </a>
+                </div>
+
+                <ul class="footer__social-row">
+                    <li class="footer__social-item">
+                        <a class="h6 hover__link-animation footer__link" href="#">
+                            Facebook
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="h6 hover__link-animation footer__link" href="#">
+                            Instagram
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="h6 hover__link-animation footer__link" href="#">
+                            Dribbble
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="h6 hover__link-animation footer__link" href="#">
+                            Linkedin
+                        </a>
+                    </li>
+                </ul>
+
+                <p class="h9 footer__description">
+                    © Copyright Manifest Theme. Allrights reserved
+                </p>
+
             </div>
 
-         </section>
-
-
-          
-       </main>
-
-       <footer class="footer">
-        <div class="container footer__container">
-            <div class="footer__content">
-                <h2 class=" title footer__title">Need a project?</h2>
-                <a class=" h6 footer__contact"href="tel:(239) 555-0108">
-                    (239) 555-0108
-                </a>
-                <a class="h6 footer__contact"href="mailto:tanya.hill@example.com">
-                    tanya.hill@example.com
-                </a>
-            </div>
-
-            <ul class="footer__social-row">
-                <li class="footer__social-item">
-                    <a class="h6 hover__link-animation footer__link" href="#">
-                        Facebook
-                    </a>
-                </li>
-                <li class="footer__social-item">
-                    <a class="h6 hover__link-animation footer__link" href="#">
-                        Instagram
-                    </a>
-                </li>
-                <li class="footer__social-item">
-                    <a class="h6 hover__link-animation footer__link" href="#">
-                        Dribbble
-                    </a>
-                </li>
-                <li class="footer__social-item">
-                    <a class="h6 hover__link-animation footer__link" href="#">
-                        Linkedin
-                    </a>
-                </li>
-            </ul>
-
-            <p class="h9 footer__description">
-                © Copyright Manifest Theme. Allrights reserved
-            </p>
-
-        </div>
-        
-    </footer>
+        </footer>
 
     </div>
-    
+
 
     <!--Обовязково додавати потрібно для JS -->
     <script> var exports = {}; </script>

@@ -222,10 +222,9 @@
 
 .comments{
     &__container{
-        max-width: 736px;
+        max-width: 664px;
         margin-bottom: 128px;
         @media (max-width: $tablet) {
-            max-width: 664px;
             margin-bottom: 64px;
         }
     }

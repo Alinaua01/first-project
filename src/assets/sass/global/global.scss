@@ -17,11 +17,12 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .hover__link-animation{
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
     display: block;
-    
+
     &:hover{
         transform: scale(1.1);
     }
