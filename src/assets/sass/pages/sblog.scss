@@ -1,4 +1,4 @@
-
+/*section sblog*/
 .sblog{
     padding-top: 128px;
     @media (max-width: $tablet) {
@@ -66,9 +66,9 @@
     }
 
 }
-//--Section sblog End
+/*section sblog end*/
 
-//--section description
+/*section description*/
 .description {
 
     &__writer{
@@ -162,8 +162,10 @@
         }
     } 
 }
-//--section description end
+/*section description end*/
 
+
+/*section reply*/
 .reply{
     &__container{
         max-width: 664px;
@@ -216,10 +218,13 @@
         padding: 8px 34px;
         margin: 24px 0 96px 0;
 
-    }
-    
+    }   
 }
+/*section reply end*/
 
+
+
+/*section comments*/
 .comments{
     &__container{
         max-width: 664px;
@@ -284,10 +289,12 @@
         color: $color-grey-500;
     }
 }
+/*section comments end*/
 .form__input{
     @media (max-width: $tablet) {
         width: 75%;
     }
+
 }
     
 
